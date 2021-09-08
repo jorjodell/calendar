@@ -1,4 +1,5 @@
 import MiniCalendar from '../../components/MiniCalendar';
+import MainCalendar from '../../components/MainCalendar';
 import * as S from './CalendarPage.styles';
 
 function Calendar() {
@@ -15,6 +16,7 @@ function Calendar() {
         </nav>
         <MiniCalendar />
       </div>
+      <MainCalendar />
     </S.Calendar>
   )
 }

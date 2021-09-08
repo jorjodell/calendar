@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const Calendar = styled.div`
   display: grid;
-  grid-template-columns: 300px 1fr;
+  grid-template-columns: 320px 1fr;
   min-height: 100vh;
 
   & .sidebar {
